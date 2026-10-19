@@ -45,14 +45,15 @@ class Song:
         # print("Count after creating song:", cls.count)
         return obj   
 
-s1 = Song.create("Lose Yourself", "Eminem", "Rap")
-s2 = Song.create("Thriller", "Michael Jackson", "Pop")
-s3 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
-# s4 = Song.create("Halo", "Beyonce", "Pop")
-s5 = Song.create("Maneater", "Hall and Oates", "Pop")
-s6 = Song.create("Smells Like Teen Spirit", "Nirvana", "Grunge")
-s7 = Song.create("Rich Girl", "Hall and Oates", "Pop")
-s8 = Song.create("Back in Black", "AC/DC", "Rock")
+# s1 = Song.create("Surrender", "Man of God", "Gospel")
+s2 = Song.create("Lose Yourself", "Eminem", "Rap")
+s3 = Song.create("Thriller", "Michael Jackson", "Pop")
+# s4 = Song.create("Thr", "Jackson", "Rock")
+s5 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
+s6 = Song.create("Halo", "Beyonce", "Pop")
+s7 = Song.create("Maneater", "Hall and Oates", "Pop")
+s8 = Song.create("Smells Like Teen Spirit", "Nirvana", "Grunge")
+s9 = Song.create("Rich Girl", "Hall and Oates", "Pop")
 
 # print(s.name)
 print(Song.count)
