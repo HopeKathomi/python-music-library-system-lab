@@ -38,16 +38,15 @@ class Song:
         cls.add_to_artists(artist)
         cls.add_to_genre_count(genre)
         cls.add_to_artists_count(artist)
-        return obj
-    
+        return obj    
 
-s2 = Song.create("Lose Yourself", "Eminem", "Rap")
-s3 = Song.create("Thriller", "Michael Jackson", "Pop")
-s5 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
-s6 = Song.create("Halo", "Beyonce", "Pop")
-s7 = Song.create("Maneater", "Hall and Oates", "Pop")
-s8 = Song.create("Smells Like Teen Spirit", "Nirvana", "Grunge")
-s9 = Song.create("Rich Girl", "Hall and Oates", "Pop")
+s1 = Song.create("Lose Yourself", "Eminem", "Rap")
+s2 = Song.create("Thriller", "Michael Jackson", "Pop")
+s3 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
+s4 = Song.create("Halo", "Beyonce", "Pop")
+s5 = Song.create("Maneater", "Hall and Oates", "Pop")
+s6 = Song.create("Smells Like Teen Spirit", "Nirvana", "Grunge")
+s7 = Song.create("Rich Girl", "Hall and Oates", "Pop")
 
 # print(s.name)
 print(Song.count)
