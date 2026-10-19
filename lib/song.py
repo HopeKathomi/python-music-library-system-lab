@@ -43,10 +43,10 @@ class Song:
 
 s2 = Song.create("Lose Yourself", "Eminem", "Rap")
 s3 = Song.create("Thriller", "Michael Jackson", "Pop")
-# s5 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
-# s6 = Song.create("Halo", "Beyonce", "Pop")
+s5 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
+s6 = Song.create("Halo", "Beyonce", "Pop")
 s7 = Song.create("Maneater", "Hall and Oates", "Pop")
-# s8 = Song.create("Smells Like Teen Spirit", "Nirvana", "Grunge")
+s8 = Song.create("Smells Like Teen Spirit", "Nirvana", "Grunge")
 s9 = Song.create("Rich Girl", "Hall and Oates", "Pop")
 
 # print(s.name)
