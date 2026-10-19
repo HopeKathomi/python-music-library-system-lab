@@ -24,15 +24,11 @@ class Song:
 
     @classmethod
     def add_to_genre_count(cls,genre):
-        count = 0
-        count += 1
-        cls.genre_count[genre] = count
+        cls.genre_count[genre] = cls.genre_count.get(genre, 0) + 1
 
     @classmethod
     def add_to_artists_count(cls,artist):
-        count = 0
-        count += 1
-        cls.artists_count[artist] = count
+        cls.artists_count[artist] = cls.artists_count.get(artist, 0) + 1
 
     @classmethod
     def create(cls,name, artist, genre):
