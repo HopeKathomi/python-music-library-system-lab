@@ -47,6 +47,7 @@ class Song:
 s1 = Song.create("Surrender", "Man of God", "Gospel")
 s2 = Song.create("Lose Yourself", "Eminem", "Rap")
 s3 = Song.create("Thriller", "Michael Jackson", "Pop")
+s3 = Song.create("Thr", "Jackson", "Rock")
 # print(s.name)
 print(Song.count)
 print(Song.genre_count)
