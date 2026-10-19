@@ -48,7 +48,7 @@ class Song:
 s1 = Song.create("Lose Yourself", "Eminem", "Rap")
 s2 = Song.create("Thriller", "Michael Jackson", "Pop")
 s3 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
-s4 = Song.create("Halo", "Beyonce", "Pop")
+# s4 = Song.create("Halo", "Beyonce", "Pop")
 s5 = Song.create("Maneater", "Hall and Oates", "Pop")
 s6 = Song.create("Smells Like Teen Spirit", "Nirvana", "Grunge")
 s7 = Song.create("Rich Girl", "Hall and Oates", "Pop")
