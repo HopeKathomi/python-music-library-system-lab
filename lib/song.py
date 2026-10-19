@@ -44,8 +44,9 @@ class Song:
         cls.add_to_artists_count(artist)
         return obj
     
-s = Song.create("surrender", "man of God", "Gospel")
-print(s.name)
+s1 = Song.create("Surrender", "Man of God", "Gospel")
+s2 = Song.create("Lose Yourself", "Eminem", "Rap")
+# print(s.name)
 print(Song.count)
 print(Song.genre_count)
 print(Song.artists_count)
