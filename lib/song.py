@@ -47,7 +47,7 @@ s3 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
 s4 = Song.create("Halo", "Beyonce", "Pop")
 s5 = Song.create("Maneater", "Hall and Oates", "Pop")
 s6 = Song.create("Smells Like Teen Spirit", "Nirvana", "Grunge")
-s7 = Song.create("Rich Girl", "Hall and Oates", "Pop")
+# s7 = Song.create("Rich Girl", "Hall and Oates", "Pop")
 s8 = Song.create("Back in Black", "AC/DC", "Rock")
 
 # print(s.name)
