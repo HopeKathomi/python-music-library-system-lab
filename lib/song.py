@@ -46,8 +46,8 @@ class Song:
         return obj   
 
 s1 = Song.create("Surrender", "Man of God", "Gospel")
-s2 = Song.create("99 Problems", "Jay Z", "Rap")
-s3 = Song.create("Thriller", "Michael Jackson", "Popy")
+s2 = Song.create("Lose Yourself", "Eminem", "Rap")
+s3 = Song.create("Thriller", "Michael Jackson", "Pop")
 s4 = Song.create("Thr", "Jackson", "Rock")
 s5 = Song.create("Empire State of Mind", "Jay Z", "Hip-Hop")
 s6 = Song.create("Halo", "Beyonce", "Pop")
